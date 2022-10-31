@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;500&display=swap');
+body{
+    display: flex;
+    flex-direction: column;
+    margin:0%;
+    font-family: 'Oswald', sans-serif;
+    font-size: clamp(10px,3vw,30px);
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #8f8f8fc2;
+    flex-wrap: wrap;
+}
+.logo img{
+    padding-top: 2%;
+    height: 45px;
+    width:auto;
+    padding-right: 50px;
+}
+.navbar {
+    display: flex;
+    gap: 30px;
+
+    list-style-type: none;
+}
+li{
+    list-style: none;
+}
+.navbar li a{
+    text-decoration: none;
+    color:white
+}
+.container_hero{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height:fit-content;
+}
+.container_hero img{
+    height: auto;
+    max-width: 100%;
+    margin:0%;
+}
+
+.container_subhero{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 60px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background: rgba(0, 0, 0, 0.932);
+    color: whitesmoke;
+    
+}
+
+.container_subhero .info img{
+    width:100%;
+    height:auto;
+}
+.container_subhero .info {
+    display:flex;
+    min-width: 200px;
+    max-width: 10%;
+    text-align: center;
+    flex-direction: column;
+}
+
+.container_quote{
+    display: flex;
+    min-height: 200px;
+    background: #B5B5B5;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 20px;
+}
+.container_quote img{
+    padding-right: 20px;
+    max-width: 20%;
+    height:auto;
+}
+
+.joinus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+
+    padding: 30px;
+}
+.joinus img{
+
+    height: 100px;
+    width:auto;
+}
+
+.joinus button{
+    background: rgba(0, 0, 0, 0.932);
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    border-color: none;
+
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.footer{
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.932);
+    color:white;
+    text-align: center;
+}
+.footer audio{
+    width: min-content;
+}
